@@ -25,3 +25,9 @@ The recipes are simple to follow and the ingredients are budget friendly to acco
 1. Download or clone the repository
 2. Open project folder
 3. Open `index.html` in your browser
+
+## Image Credit
+- Grilled Cheese: [You Le](https://unsplash.com/@le_y0u) on Unsplash
+- Scrambled eggs: [Luca Volpe](https://unsplash.com/@lucavolpe)
+- Mac and Cheese: [Hermes Rivera](https://unsplash.com/@hermez777)
+      
