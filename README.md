@@ -16,6 +16,14 @@ The recipes are simple to follow and the ingredients are budget friendly to acco
 - Navigation bar (responsive)
 - Clean and modern UI layout
 
+## Color Palette
+- Orange: #ff3122
+- Cyan-ish: #02abf7
+- Cream: #fdfefc
+- yellow-ish: #fcbd1c
+- Default dark: #0c0b0c
+credit: [Huemint](https://huemint.com/brand-intersection/#palette=ff3122-02abf7-fdfefc-fcbd1c)
+
 ## Stack
 - HTML
 - CSS
