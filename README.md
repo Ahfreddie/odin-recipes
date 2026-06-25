@@ -36,6 +36,6 @@ credit: [Huemint](https://huemint.com/brand-intersection/#palette=ff3122-02abf7-
 
 ## Image Credit
 - Grilled Cheese: [You Le](https://unsplash.com/@le_y0u) on Unsplash
-- Scrambled eggs: [Luca Volpe](https://unsplash.com/@lucavolpe)
-- Mac and Cheese: [Hermes Rivera](https://unsplash.com/@hermez777)
+- Scrambled eggs: [Luca Volpe](https://unsplash.com/@lucavolpe) on Unsplash
+- Mac and Cheese: [Hermes Rivera](https://unsplash.com/@hermez777) on Unsplash
       
