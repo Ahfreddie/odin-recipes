@@ -40,6 +40,10 @@
   --pill: 50%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--color-secondary);
   color: var(--color-primary);
@@ -69,7 +73,7 @@ header {
 
   font-weight: 600;
   font-size: var(--text-base);
-  padding: var(--spacing-sm);
+  padding: var(--spacing-sm) 0;
   
 
 }
@@ -79,9 +83,18 @@ header {
   flex-direction: column;
   gap: var(--spacing-sm);
   margin: var(--spacing-sm) 0;
+
+  height: 100px;
+  width: 30%;
+  padding: var(--spacing-base);
+  background-color: var(--color-primary);
+  box-shadow: 0 0 2px rgba(0,0,0,0.15);
+  border-radius: 0 0 10px 0;
   
   list-style: none;
-  transform: scale(0);
+  transform: translateY(-100px);
+  /* top: -2.5rem; */
+  transition: all 0.3s ease-in-out;
 }
 
 .nav-bar a {
@@ -105,13 +118,34 @@ header {
   z-index: 5;
 }
 
-.hamburger span{
+.hamburger span {
   display: block;
   width: 30px;
   height: 4px;
   border-radius: 3px;
   background-color: var(--color-secondary);
   transition: all 0.3s ease-in-out;
+}
+
+/* hamburger annimation */
+#menu-toggle:checked + .hamburger .top-bun {
+  transform: rotate(-45deg);
+  margin-top: 8px;
+}
+
+#menu-toggle:checked + .hamburger .meat {
+  transform: rotate(45deg);
+  margin-top: -9px;
+}
+
+#menu-toggle:checked + .hamburger .bottom-bun {
+  transform: rotate(45deg);
+  opacity: 0;
+}
+
+#menu-toggle:checked + .hamburger + #menu {
+  top: 2.5rem;
+  transform: scale(1) translateY(0);
 }
 
 h1 {
