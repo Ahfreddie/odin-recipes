@@ -22,6 +22,7 @@
   --text-lg: 1.125rem;
   --text-xl: 1.875rem;
   --text-sxl: 2.25rem;
+  --text-sxl2: 3.25rem;
 
   /* spacing */
   --spacing-sm: 0.5rem;
@@ -186,6 +187,9 @@ h1 {
     width: 20%;
   }
 
+  h1 {
+    font-size: var(--text-sxl2);
+  }
 }
 
 /* desktop */
