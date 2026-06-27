@@ -28,6 +28,10 @@ credit: [Huemint](https://huemint.com/brand-intersection/#palette=ff3122-02abf7-
 - HTML
 - CSS
 
+## What I have learned
+- The power of utilizing atomic commits to git
+- Setting up a hamburger menu without JavaScript using the Check input and label.
+
 ## Installation
 
 1. Download or clone the repository
