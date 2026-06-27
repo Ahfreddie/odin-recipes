@@ -192,11 +192,13 @@ h1 {
   margin-bottom: var(--spacing-lg);
   border-radius: var(--rounded-base);
 
-  transition: box-shadow 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out ;
 }
 
 .recipe-card:hover {
-  box-shadow: 0 0 10px var(--color-secondary3);
+  box-shadow: 2px 5px 10px rgba(0, 0,0, 0.55);
+  background-color: var(--color-secondary2);
+  color: var(--color-primary);
 }
 
 .card-img {
@@ -224,6 +226,7 @@ h1 {
   gap: var(--spacing-base);
   margin-bottom: var(--spacing-sm);
   font-size: var(--text-sm);
+  color: rgba(0, 0,0, 0.65);
   
 }
 
@@ -232,7 +235,7 @@ h1 {
   width: 1px;
   height: 15px;
   border-radius: var(--rounded-base);
-  background-color: var(--color-dark);
+  background-color: rgba(0, 0,0, 0.65);
 }
 
 .btn {
@@ -246,6 +249,7 @@ h1 {
   padding-inline: var(--spacing-sm);
   padding-block: 5px;
   border-radius: var(--pill);
+  border: 2px solid var(--color-primary);
 
   transition: color 0.3s ease-in-out background 0.3s ease-in-out ;
 }
@@ -254,6 +258,8 @@ h1 {
   background: var(--color-secondary3);
   color: var(--color-secondary);
 }
+
+
 
 /* responsive styling */
 
@@ -266,11 +272,26 @@ h1 {
   h1 {
     font-size: var(--text-sxl2);
   }
+
+  .card-container {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4%;
+    
+  }
 }
 
 /* desktop */
-@media (min-width: 1024px) {
+@media (min-width: 1080px) {
   #menu {
     width: 15%;
+  }
+
+  .card-container {
+    flex-direction: row;
+    justify-content: center;
+    gap: 4%;
+    margin-inline: var(--spacing-base);
   }
 }
